@@ -31,6 +31,6 @@ strawberry("A", "GrApEfRuIt", true); // 1
 
 Strawberry:
 
-- character (also supports a string) - `r`
+- character - `r`
 - string - `strawberry`
 - case sensitivity - `true` or `false`

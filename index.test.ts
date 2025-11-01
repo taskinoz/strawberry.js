@@ -26,4 +26,19 @@ describe("Test strawberry function", () => {
     const result = strawberry("A", "GrApEfRuIt", true); // 1
     expect(result).toBe(1);
   });
+
+  it("should count the characters in a sentence", () => {
+    const result = strawberry(" ", "This is a test");
+    expect(result).toBe(3);
+  });
+
+  it("should handle empty string", () => {
+    const result = strawberry("a", "");
+    expect(result).toBe(0);
+  });
+
+  it("should handle special characters", () => {
+    const result = strawberry("!", "Hello! How are you!?!", true);
+    expect(result).toBe(3);
+  });
 });
