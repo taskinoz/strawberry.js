@@ -2,6 +2,9 @@
 
 A simple package to count the ammount of characters in string.
 
+## Installation
+This package was to test publishing with JSR which you can find here - https://jsr.io/@taskinoz/strawberryjs
+
 ## Usage
 
 Import the package and call it:
